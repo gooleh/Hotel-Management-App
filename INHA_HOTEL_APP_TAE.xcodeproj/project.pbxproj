@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EFCEC0A2BF2F08800BE63FE /* INHA_HOTEL_APP_TAEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCEC092BF2F08800BE63FE /* INHA_HOTEL_APP_TAEApp.swift */; };
+		9EFCEC0C2BF2F08800BE63FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCEC0B2BF2F08800BE63FE /* ContentView.swift */; };
+		9EFCEC0E2BF2F08B00BE63FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCEC0D2BF2F08B00BE63FE /* Assets.xcassets */; };
+		9EFCEC112BF2F08B00BE63FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCEC102BF2F08B00BE63FE /* Preview Assets.xcassets */; };
+		9EFCEC1B2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCEC1A2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.swift */; };
+		9EFCEC252BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCEC242BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.swift */; };
+		9EFCEC272BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCEC262BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EFCEC172BF2F08C00BE63FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EFCEBFE2BF2F08800BE63FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFCEC052BF2F08800BE63FE;
+			remoteInfo = INHA_HOTEL_APP_TAE;
+		};
+		9EFCEC212BF2F08C00BE63FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EFCEBFE2BF2F08800BE63FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFCEC052BF2F08800BE63FE;
+			remoteInfo = INHA_HOTEL_APP_TAE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EFCEC062BF2F08800BE63FE /* INHA_HOTEL_APP_TAE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INHA_HOTEL_APP_TAE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFCEC092BF2F08800BE63FE /* INHA_HOTEL_APP_TAEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INHA_HOTEL_APP_TAEApp.swift; sourceTree = "<group>"; };
+		9EFCEC0B2BF2F08800BE63FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EFCEC0D2BF2F08B00BE63FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EFCEC102BF2F08B00BE63FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EFCEC162BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INHA_HOTEL_APP_TAETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFCEC1A2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INHA_HOTEL_APP_TAETests.swift; sourceTree = "<group>"; };
+		9EFCEC202BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INHA_HOTEL_APP_TAEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFCEC242BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INHA_HOTEL_APP_TAEUITests.swift; sourceTree = "<group>"; };
+		9EFCEC262BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INHA_HOTEL_APP_TAEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EFCEC032BF2F08800BE63FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC132BF2F08C00BE63FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC1D2BF2F08C00BE63FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EFCEBFD2BF2F08800BE63FE = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC082BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */,
+				9EFCEC192BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests */,
+				9EFCEC232BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests */,
+				9EFCEC072BF2F08800BE63FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFCEC072BF2F08800BE63FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC062BF2F08800BE63FE /* INHA_HOTEL_APP_TAE.app */,
+				9EFCEC162BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.xctest */,
+				9EFCEC202BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EFCEC082BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC092BF2F08800BE63FE /* INHA_HOTEL_APP_TAEApp.swift */,
+				9EFCEC0B2BF2F08800BE63FE /* ContentView.swift */,
+				9EFCEC0D2BF2F08B00BE63FE /* Assets.xcassets */,
+				9EFCEC0F2BF2F08B00BE63FE /* Preview Content */,
+			);
+			path = INHA_HOTEL_APP_TAE;
+			sourceTree = "<group>";
+		};
+		9EFCEC0F2BF2F08B00BE63FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC102BF2F08B00BE63FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EFCEC192BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC1A2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.swift */,
+			);
+			path = INHA_HOTEL_APP_TAETests;
+			sourceTree = "<group>";
+		};
+		9EFCEC232BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCEC242BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.swift */,
+				9EFCEC262BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITestsLaunchTests.swift */,
+			);
+			path = INHA_HOTEL_APP_TAEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EFCEC052BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFCEC2A2BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAE" */;
+			buildPhases = (
+				9EFCEC022BF2F08800BE63FE /* Sources */,
+				9EFCEC032BF2F08800BE63FE /* Frameworks */,
+				9EFCEC042BF2F08800BE63FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INHA_HOTEL_APP_TAE;
+			productName = INHA_HOTEL_APP_TAE;
+			productReference = 9EFCEC062BF2F08800BE63FE /* INHA_HOTEL_APP_TAE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EFCEC152BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFCEC2D2BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAETests" */;
+			buildPhases = (
+				9EFCEC122BF2F08C00BE63FE /* Sources */,
+				9EFCEC132BF2F08C00BE63FE /* Frameworks */,
+				9EFCEC142BF2F08C00BE63FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EFCEC182BF2F08C00BE63FE /* PBXTargetDependency */,
+			);
+			name = INHA_HOTEL_APP_TAETests;
+			productName = INHA_HOTEL_APP_TAETests;
+			productReference = 9EFCEC162BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EFCEC1F2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFCEC302BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAEUITests" */;
+			buildPhases = (
+				9EFCEC1C2BF2F08C00BE63FE /* Sources */,
+				9EFCEC1D2BF2F08C00BE63FE /* Frameworks */,
+				9EFCEC1E2BF2F08C00BE63FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EFCEC222BF2F08C00BE63FE /* PBXTargetDependency */,
+			);
+			name = INHA_HOTEL_APP_TAEUITests;
+			productName = INHA_HOTEL_APP_TAEUITests;
+			productReference = 9EFCEC202BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EFCEBFE2BF2F08800BE63FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9EFCEC052BF2F08800BE63FE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9EFCEC152BF2F08C00BE63FE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9EFCEC052BF2F08800BE63FE;
+					};
+					9EFCEC1F2BF2F08C00BE63FE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9EFCEC052BF2F08800BE63FE;
+					};
+				};
+			};
+			buildConfigurationList = 9EFCEC012BF2F08800BE63FE /* Build configuration list for PBXProject "INHA_HOTEL_APP_TAE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EFCEBFD2BF2F08800BE63FE;
+			productRefGroup = 9EFCEC072BF2F08800BE63FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EFCEC052BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */,
+				9EFCEC152BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests */,
+				9EFCEC1F2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFCEC042BF2F08800BE63FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFCEC112BF2F08B00BE63FE /* Preview Assets.xcassets in Resources */,
+				9EFCEC0E2BF2F08B00BE63FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC142BF2F08C00BE63FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC1E2BF2F08C00BE63FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EFCEC022BF2F08800BE63FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFCEC0C2BF2F08800BE63FE /* ContentView.swift in Sources */,
+				9EFCEC0A2BF2F08800BE63FE /* INHA_HOTEL_APP_TAEApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC122BF2F08C00BE63FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFCEC1B2BF2F08C00BE63FE /* INHA_HOTEL_APP_TAETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFCEC1C2BF2F08C00BE63FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFCEC272BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITestsLaunchTests.swift in Sources */,
+				9EFCEC252BF2F08C00BE63FE /* INHA_HOTEL_APP_TAEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EFCEC182BF2F08C00BE63FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EFCEC052BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */;
+			targetProxy = 9EFCEC172BF2F08C00BE63FE /* PBXContainerItemProxy */;
+		};
+		9EFCEC222BF2F08C00BE63FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EFCEC052BF2F08800BE63FE /* INHA_HOTEL_APP_TAE */;
+			targetProxy = 9EFCEC212BF2F08C00BE63FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EFCEC282BF2F08C00BE63FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EFCEC292BF2F08C00BE63FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EFCEC2B2BF2F08C00BE63FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"INHA_HOTEL_APP_TAE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EFCEC2C2BF2F08C00BE63FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"INHA_HOTEL_APP_TAE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EFCEC2E2BF2F08C00BE63FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INHA_HOTEL_APP_TAE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/INHA_HOTEL_APP_TAE";
+			};
+			name = Debug;
+		};
+		9EFCEC2F2BF2F08C00BE63FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INHA_HOTEL_APP_TAE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/INHA_HOTEL_APP_TAE";
+			};
+			name = Release;
+		};
+		9EFCEC312BF2F08C00BE63FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = INHA_HOTEL_APP_TAE;
+			};
+			name = Debug;
+		};
+		9EFCEC322BF2F08C00BE63FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taekyou.INHA-HOTEL-APP-TAEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = INHA_HOTEL_APP_TAE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EFCEC012BF2F08800BE63FE /* Build configuration list for PBXProject "INHA_HOTEL_APP_TAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFCEC282BF2F08C00BE63FE /* Debug */,
+				9EFCEC292BF2F08C00BE63FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFCEC2A2BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFCEC2B2BF2F08C00BE63FE /* Debug */,
+				9EFCEC2C2BF2F08C00BE63FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFCEC2D2BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFCEC2E2BF2F08C00BE63FE /* Debug */,
+				9EFCEC2F2BF2F08C00BE63FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFCEC302BF2F08C00BE63FE /* Build configuration list for PBXNativeTarget "INHA_HOTEL_APP_TAEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFCEC312BF2F08C00BE63FE /* Debug */,
+				9EFCEC322BF2F08C00BE63FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EFCEBFE2BF2F08800BE63FE /* Project object */;
+}

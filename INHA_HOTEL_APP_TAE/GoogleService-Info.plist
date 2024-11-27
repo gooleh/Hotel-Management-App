@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAAepCKK8o1XHsd-jTwlofFZNazAtOOKzw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>844952203193</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.taekyou.INHA-HOTEL-APP-TAE</string>
+	<key>PROJECT_ID</key>
+	<string>inha-hotel-management</string>
+	<key>STORAGE_BUCKET</key>
+	<string>inha-hotel-management.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:844952203193:ios:5fb6f2a954e2d02c0dd068</string>
+</dict>
+</plist>
